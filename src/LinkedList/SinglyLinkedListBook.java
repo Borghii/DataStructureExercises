@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class SinglyLinkedLists<E> {
+public class SinglyLinkedListBook<E> {
 //---------------- nested Node class ----------------
      private static class Node<E> {
          private E element; // reference to the element stored at this node
@@ -18,7 +18,7 @@ public class SinglyLinkedLists<E> {
     private Node<E> head = null; // head node of the list (or null if empty)
     private Node<E> tail = null; // last node of the list (or null if empty)
     private int size = 0; // number of nodes in the list
-    public SinglyLinkedLists() { } // constructs an initially empty list
+    public SinglyLinkedListBook() { } // constructs an initially empty list
     // access methods
     public int size() { return size; }
     public boolean isEmpty() { return size == 0; }
