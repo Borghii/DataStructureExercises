@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97837372-2d1e-41c1-bb6d-eec0a64db883" name="Changes" comment="add: practice LinkedList">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/CircularlyLinkedListBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/CircularyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/SinglyLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/SinglyLinkedListBook.java" afterDir="false" />
-    </list>
+    <list default="true" id="97837372-2d1e-41c1-bb6d-eec0a64db883" name="Changes" comment="add: practice CircularlyLinkedList" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,11 +107,20 @@
       <option name="project" value="LOCAL" />
       <updated>1709854226184</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add: practice CircularlyLinkedList">
+      <option name="closed" value="true" />
+      <created>1710203459061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710203459061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: practice LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: practice LinkedList" />
+    <MESSAGE value="add: practice CircularlyLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: practice CircularlyLinkedList" />
   </component>
 </project>
