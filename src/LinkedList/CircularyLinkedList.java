@@ -107,10 +107,6 @@ public class CircularyLinkedList<E> {
         System.out.println(names.first());
         System.out.println(names.last());
 
-
-
-
-
     }
 
 }

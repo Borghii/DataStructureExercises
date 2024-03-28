@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97837372-2d1e-41c1-bb6d-eec0a64db883" name="Changes" comment="add: practice CircularlyLinkedList" />
+    <list default="true" id="97837372-2d1e-41c1-bb6d-eec0a64db883" name="Changes" comment="add: practice CircularlyLinkedList">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/CircularyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/CircularyLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,16 +38,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CircularyLinkedList.executor": "Run",
+    "Application.DoublyLinkedList.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CircularyLinkedList">
+  <component name="RunManager" selected="Application.DoublyLinkedList">
     <configuration name="CircularyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.CircularyLinkedList" />
+      <module name="Data Structures Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.DoublyLinkedList" />
       <module name="Data Structures Exercises" />
       <extension name="coverage">
         <pattern>
@@ -70,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoublyLinkedList" />
         <item itemvalue="Application.CircularyLinkedList" />
         <item itemvalue="Application.Main" />
       </list>
@@ -115,8 +135,27 @@
       <option name="project" value="LOCAL" />
       <updated>1710203459061</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add: practice CircularlyLinkedList">
+      <option name="closed" value="true" />
+      <created>1710203974585</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710203974585</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: practice LinkedList" />
