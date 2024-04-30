@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97837372-2d1e-41c1-bb6d-eec0a64db883" name="Changes" comment="add: practice CircularlyLinkedList">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/DoublyLinkedList.java" afterDir="false" />
+    <list default="true" id="97837372-2d1e-41c1-bb6d-eec0a64db883" name="Changes" comment="add: practice DoublyLinkedList">
+      <change afterPath="$PROJECT_DIR$/src/Exercises_Chapter_3/Reinforcement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/CircularyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/CircularyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Borghii"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Borghii/DataStructureExercises.git",
+    "accountId": "2e699beb-8c26-4f6a-b608-82f45b0371d8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -39,15 +50,18 @@
   "keyToString": {
     "Application.CircularyLinkedList.executor": "Run",
     "Application.DoublyLinkedList.executor": "Run",
+    "Application.Ex31.executor": "Run",
+    "Application.Ex32.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tomas/Desktop/Data Structures Exercises"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DoublyLinkedList">
+  <component name="RunManager" selected="Application.Ex32">
     <configuration name="CircularyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.CircularyLinkedList" />
       <module name="Data Structures Exercises" />
@@ -74,6 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises_Chapter_3.Ex32" />
+      <module name="Data Structures Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises_Chapter_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.Main" />
       <module name="Data Structures Exercises" />
@@ -89,18 +116,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex32" />
         <item itemvalue="Application.DoublyLinkedList" />
         <item itemvalue="Application.CircularyLinkedList" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -143,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710203974585</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add: practice DoublyLinkedList">
+      <option name="closed" value="true" />
+      <created>1711660170588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711660170588</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: practice LinkedList" />
     <MESSAGE value="add: practice CircularlyLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: practice CircularlyLinkedList" />
+    <MESSAGE value="add: practice DoublyLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: practice DoublyLinkedList" />
   </component>
 </project>
