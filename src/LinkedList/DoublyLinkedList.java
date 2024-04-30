@@ -111,18 +111,57 @@ public class DoublyLinkedList <T>{
         return element;
     }
 
+    public Node<T> returnMiddle() {
+        if (isEmpty()) {
+            throw new IllegalStateException("La lista está vacía");
+        }
+
+        Node<T> tempA = header.next;
+        Node<T> tempB = trailer.previous;
+
+        while (tempA != tempB && tempA.next != tempB) {
+            tempA = tempA.next;
+            tempB = tempB.previous;
+        }
+
+        // Si la lista tiene un número impar de nodos, tempA apuntará al nodo medio
+        // Si la lista tiene un número par de nodos, tempA apuntará al nodo que está justo antes del medio
+        return tempA;
+    }
+
+    public int getSizeWithoutInstance(){
+        if (header.getNext()==trailer)return 0;
+        int cont = 1;
+
+        Node <T> tempA = header.getNext();
+        Node <T> tempB = trailer.getPrevious();
+
+        while (tempA != tempB && tempA.getNext()!=tempB){
+            tempA=tempA.getNext();
+            tempB=tempB.getPrevious();
+            cont+=2;
+        }
+
+        return tempA==tempB ? cont: cont+1;
+
+    }
+
+
 
     public static void main(String[] args) {
-        var doublyList = new DoublyLinkedListBook<Integer>();
+        var doublyList = new DoublyLinkedList<Integer>();
+        var doublyList2 = new DoublyLinkedList<Integer>();
+        doublyList.addFirst(1);
         doublyList.addFirst(2);
-        doublyList.addFirst(8);
-        doublyList.addLast(3);
-        doublyList.addLast(6);
+        doublyList.addFirst(4);
+        doublyList.addFirst(5);
+        doublyList.addFirst(5);
 
-        System.out.println(doublyList.first());
-        System.out.println(doublyList.last());
-        System.out.println(doublyList.removeLast());
-        System.out.println(doublyList.last());
+        doublyList2.addFirst(9);
+
+
+        System.out.println(doublyList2.getSizeWithoutInstance());
+
     }
 
 

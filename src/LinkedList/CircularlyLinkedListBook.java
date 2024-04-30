@@ -45,8 +45,8 @@ public class CircularlyLinkedListBook<E> {
             tail = new Node<>(e, null);
             tail.setNext(tail); // link to itself circularly
         } else {
-            Node<E> newest = new Node<>(e, tail.getNext());
-            tail.setNext(newest);
+
+            tail.setNext(new Node<>(e, tail.getNext()));
         }
         size++;
     }

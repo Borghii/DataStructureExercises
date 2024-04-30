@@ -52,8 +52,17 @@ public class SinglyLinkedList<E> {
     }
 
     public int getSize(){
-        return size;
+
+        if(head == null)return 0;
+        int cont = 1;
+        Node<E> temp = head;
+        while (temp.getReferenceValue() != null){
+            cont++;
+            temp = temp.getReferenceValue();
+        }
+        return cont;
     }
+
     public boolean isEmpty(){
         return size==0;
     }
@@ -80,6 +89,17 @@ public class SinglyLinkedList<E> {
             tail=null;
 
         return answer;
+    }
+
+    public static void main(String[] args) {
+        SinglyLinkedList<Integer> listIntegers = new SinglyLinkedList<>();
+        SinglyLinkedList<Integer> listIntegers2 = new SinglyLinkedList<>();
+        listIntegers.addFirst(1);
+        listIntegers.addFirst(2);
+        listIntegers.addFirst(3);
+        listIntegers.addFirst(4);
+
+        System.out.println(listIntegers2.getSize());
     }
 
 

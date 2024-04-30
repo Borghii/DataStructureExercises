@@ -84,12 +84,29 @@ public class CircularyLinkedList<E> {
         return head.getElement();
     }
 
+    public int getSize(){
+        if (tail==null)return 0;
+        int cont = 1;
+        Node<E> temp = tail;
+
+        while (temp.getReferenceValue() != tail){
+            cont++;
+            temp = temp.getReferenceValue();
+        }
+        return cont;
+
+    }
+
     public static void main(String[] args) {
         CircularyLinkedList<String> names = new CircularyLinkedList<>();
+        CircularyLinkedList<String> names2 = new CircularyLinkedList<>();
 
         names.addFirst("Tomas");
         names.addFirst("Alfonso");
         names.addFirst("Raul");
+
+        System.out.println(names2.getSize());
+
 
         // RAUL(head) --> ALFONSO --> TOMAS(tail) --> RAUL ...
         System.out.println(names.first());

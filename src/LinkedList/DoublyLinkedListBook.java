@@ -22,8 +22,8 @@ public class DoublyLinkedListBook<E> {
     } //----------- end of nested Node class -----------
 
     // instance variables of the DoublyLinkedList
-    private Node<E> header; // header sentinel
-    private Node<E> trailer; // trailer sentinel
+    private final Node<E> header; // header sentinel
+    private final Node<E> trailer; // trailer sentinel
     private int size = 0; // number of elements in the list
 
     /* Constructs a new empty list. */
